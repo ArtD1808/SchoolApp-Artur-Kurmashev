@@ -6,6 +6,12 @@
 
     <VerticalStackLayout Padding="20" Spacing="15" VerticalOptions="Center">
 
+        <Label Text="Name card" FontSize="22" FontAttributes="Bold" />
+
+        <Entry Text="{Binding Name}" Placeholder="Edit your name" />
+
+        <Label Text="{Binding Name}" FontSize="20" />
+        <Label Text="{Binding City}" FontSize="16" TextColor="Gray" />
         <Label Text="School App"
                FontSize="32"
                HorizontalOptions="Center" />
@@ -28,5 +34,4 @@
                 HorizontalOptions="Center" />
 
     </VerticalStackLayout>
-
 </ContentPage>
