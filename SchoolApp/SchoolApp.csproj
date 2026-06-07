@@ -57,6 +57,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="14-ый урок.png" />
+	  <None Remove="14-ый урок2.png" />
+	  <None Remove="14-ый урок3.png" />
 	  <None Remove="Снимок экрана 2026-05-13 010941.png" />
 	  <None Remove="Снимок экрана 2026-05-13 010952.png" />
 	</ItemGroup>
